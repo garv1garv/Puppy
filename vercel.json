@@ -1,5 +1,18 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "outputDirectory": "clone"
+  "outputDirectory": "clone",
+  "routes": [
+    {
+      "src": "^/_next/image\\?url=%2F([^&]+).*",
+      "dest": "/$1"
+    },
+    {
+      "src": "^/_next/image\\?url=(?:%2F)?([^&]+).*",
+      "dest": "/$1"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
 }
