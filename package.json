@@ -1,0 +1,8 @@
+{
+  "name": "teddy-pups",
+  "version": "1.0.0",
+  "description": "TeddyPups static web deployment",
+  "scripts": {
+    "build": "echo 'Static build ready'"
+  }
+}

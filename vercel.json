@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "public": true,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "^/_next/image",
+      "dest": "/clone/_next/image"
+    },
+    {
+      "src": "^/(.*)",
+      "dest": "/clone/$1"
+    }
+  ]
+}
